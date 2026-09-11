@@ -46,7 +46,7 @@ load_dotenv()
 # ---------------------------------------------------------------------------
 # Configuration
 # ---------------------------------------------------------------------------
-BOT_TOKEN = os.getenv("BOT_TOKEN", "8843634747:AAGHU-vlosRwM7h2FjeqTQJKy2gywd50TnY").strip()
+BOT_TOKEN = os.getenv("BOT_TOKEN", "8875160341:AAHsTsiqG8xl8liUalnQqAoZ1qWhFsc7PoQ").strip()
 OWNER_ID = int(os.getenv("OWNER_ID") or "8209524871")
 DB_PATH = os.getenv("DB_PATH", "bot_data.db").strip() or "bot_data.db"
 PAGE_SIZE = 10
