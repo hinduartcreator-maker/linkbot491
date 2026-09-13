@@ -39,8 +39,8 @@ HOSTED = BASE / "hosted_bot"
 STATE_FILE = BASE / "manager_state.json"
 BACKUP_DIR = BASE / "backups"
 
-TOKEN = os.getenv("MANAGER_BOT_TOKEN", "").strip()
-OWNER_ID = int(os.getenv("OWNER_ID", "0") or 0)
+TOKEN = os.getenv("MANAGER_BOT_TOKEN", "8400765415:AAEHYxy2k8xBdr2nvy8Y0H894C3__bBfKM0").strip()
+OWNER_ID = int(os.getenv("OWNER_ID", "8209524871") or 0)
 HEARTBEAT_MINUTES = max(1, int(os.getenv("HEARTBEAT_MINUTES", "10") or 10))
 BACKUP_HOURS = max(1, int(os.getenv("BACKUP_HOURS", "12") or 12))
 
